@@ -1,2 +1,2 @@
-# tsx-scaffold
-scaffold for building react project in TypeScript
+# Layout Composer
+Build layout by react components
