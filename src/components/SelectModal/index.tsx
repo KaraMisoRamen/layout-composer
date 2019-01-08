@@ -11,8 +11,16 @@ export class SelectModal extends React.Component<any> {
 
   render () {
     return (
-      <div className="modal">
-        ojbk!!!!22211211112211
+      <div>
+        <div className="modal_button" role="button"></div>
+
+        <div id="component_modal">
+          <div className="component_modal_inner">
+            <div className="component_modal_content">
+              <h2 className="component_modal_title">Choose your component</h2>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

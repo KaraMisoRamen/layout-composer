@@ -1,1 +1,48 @@
 @charset "utf-8";
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Palatino;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+  background: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+aside {
+  height: 200px;
+  width: 250px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+main {
+  width: 700px;
+}
+
+footer {
+  color: #fff;
+  margin-top: 40px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
