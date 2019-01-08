@@ -12,7 +12,7 @@ module.exports = {
   devtool: "source-map",
 
   devServer: {
-    contentBase: __dirname,
+    contentBase: path.resolve(__dirname, 'test'),
     port: 3000,
 		hot: true,
 		inline: true
@@ -22,7 +22,7 @@ module.exports = {
       // Add '.ts' and '.tsx' as resolvable extensions.
       extensions: [".ts", ".tsx", ".js", ".json"]
   },
-  
+
   module: {
 		rules: [
 			{
@@ -88,7 +88,7 @@ module.exports = {
 			}
 		]
   },
-	
+
 	plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
