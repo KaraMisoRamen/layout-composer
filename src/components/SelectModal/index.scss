@@ -56,5 +56,23 @@
       box-sizing: border-box;
     }
   }
+
+  .modal_window-enter {
+    opacity: 0.01;
+  }
+
+  .modal_window-enter.modal_window-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+  .modal_window-leave {
+    opacity: 1;
+  }
+
+  .modal_window-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
 }
 
